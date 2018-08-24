@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CursoCSharp.Fundamentos
 {
@@ -11,7 +9,15 @@ namespace CursoCSharp.Fundamentos
             var nome = "Leonardo";
             Console.WriteLine(nome);
 
-
+            /* Errado:
+             * var nome;
+             * nome = "Leonardo";
+             * 
+             * ou
+             * 
+             * var nome = "Leonardo";
+             * nome = 2;
+             */
         }
     }
 }
